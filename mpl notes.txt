@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+# Check the style availabe for mpl
+plt.style.available
+
+/*--------------------------------------------------------------*/
+
+Scatter
+
+Check colormaps in pyplot at https://matplotlib.org/;
+# Use colormap
+ax.scatter(x_values, y_values, c = 'red', s = 10) OR
+
+ax.scatter(x_values, y_values, c = (0, 0.8, 0), s = 10)
+
